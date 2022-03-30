@@ -1,13 +1,13 @@
 package com.ethniconnect.foodordering.service;
 
-import java.util.Arrays;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.ethniconnect.foodordering.entity.CuisineDetails;
 import com.ethniconnect.foodordering.entity.ZipDetails;
 import com.ethniconnect.foodordering.repository.CuisineRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.Arrays;
+
 
 @Service
 public class FoodOrderingService {
